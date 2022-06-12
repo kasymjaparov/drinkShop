@@ -1,0 +1,15 @@
+.types-input_after {
+  margin: 15px 0;
+  cursor: pointer;
+  font-weight: 700;
+}
+.types-input_after-delete {
+  background: #d32f2f;
+}
+.types-input_after-edit {
+  background: #1f6feb;
+}
+.types-input_after-send {
+  background: #238636;
+  
+}

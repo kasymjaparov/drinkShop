@@ -1,0 +1,11 @@
+.lk *{
+    color: white;
+}
+.lk_nav{
+    display: flex;
+justify-content: space-between;
+}
+.lk_nav span{
+    display: block;
+    margin-right: 50px;
+}

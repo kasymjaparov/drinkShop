@@ -1,0 +1,7 @@
+.navbar_link {
+  margin-right: 15px;
+}
+.navbar_link:hover,
+.navbar_logo:hover {
+  color: white;
+}

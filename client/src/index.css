@@ -1,0 +1,116 @@
+/* Обнуление */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background: #0f1e36;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #314054 inset !important;
+  -webkit-text-fill-color: white;
+}
+
+.mycontainer {
+  width: 1200px;
+  margin: 0 auto 0 auto;
+}
+.input_error {
+  font-size: 0.875em;
+  color: #dc3545 !important;
+  margin: 0px 0px 15px 0px;
+}
+@media (max-width: 1380px) {
+  .mycontainer {
+    max-width: 100%;
+    padding: 0 50px;
+  }
+}
+@media (max-width: 768px) {
+  .mycontainer {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+@media (max-width: 500px) {
+  .mycontainer {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,45 @@
+.main_songs_label {
+  margin-top: 25px;
+}
+.main {
+  margin-top: 50px;
+}
+.main_filters {
+  display: flex;
+  margin: 70px 0px 0px 0px;
+}
+.songs_label {
+  margin-top: 40px;
+}
+.filter-input {
+  border-radius: 0;
+}
+.main_filters_search {
+  width: 30px;
+  border: 1px solid #ced4da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.main_drinks_row {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  margin: 30px 0px 0px 0px;
+}
+.pagination_pages {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 0px 0px ;
+}
+.page-link {
+  background: inherit;
+}
+.page-link:hover {
+  background: rgb(33, 37, 41);
+}
+.page-item.active .page-link {
+  background: #212529;
+  border-color: #fff;
+}

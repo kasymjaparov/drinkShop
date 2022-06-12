@@ -1,0 +1,15 @@
+.accordion-button,
+.songs_accordion,
+.accordion-button:not(.collapsed) {
+  background: #445974;
+  color: rgb(255, 255, 255);
+}
+.songs_row {
+  margin: 20px 0px 0px 0px;
+}
+.songs_accordion-item {
+  margin: 0px 0px 20px 0px;
+}
+.songs_accordion-item_body div{
+    margin: 0px 0px 10px 0px ;
+}

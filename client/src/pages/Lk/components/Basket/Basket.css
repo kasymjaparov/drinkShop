@@ -1,0 +1,29 @@
+.drinkPage_info_counter .input-group-text {
+  cursor: pointer;
+}
+.basket_item .input-group-text {
+  background: rgb(33, 37, 41);
+}
+.basket_item .form-control {
+  background: #314054;
+  color: white;
+}
+.basket_item .input-group {
+  width: 130px;
+}
+.basket_btn {
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+}
+.modal-content {
+  background: #6c757d;
+  color: #fff;
+}
+.basket_modal_body_items {
+  margin: 0px 0px 14px 0px;
+  font-size: 18px;
+}
+.modal_sum {
+  margin: 15px 0px 0px 0px;
+  font-size: 18px;
+}

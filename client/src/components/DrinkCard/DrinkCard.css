@@ -1,0 +1,29 @@
+.drinkCard {
+  width: 250px;
+  background: #314054;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.drinkCard_image {
+  display: flex;
+  justify-content: center;
+}
+.drinkCard_image img {
+  max-width: 100%;
+  height: 230px;
+}
+.drinkCard_attr {
+  font-size: 16px;
+  margin: 10px 0px 0px 0px;
+  color: #151b23;
+}
+.drinkCard_btn-basket{
+    margin: 15px 0px 0px 0px ;
+    
+}
+a.drinkCard_attr:hover{
+  color: inherit;
+}
